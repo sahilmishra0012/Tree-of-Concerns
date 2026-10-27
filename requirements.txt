@@ -1,0 +1,26 @@
+# LimitTree dependencies
+# Python 3.9+; tested on 3.9.25 on Amazon Linux 2
+
+# Core
+pydantic>=2.0
+numpy
+
+# AWS
+boto3>=1.40
+
+# LLM clients
+anthropic>=0.100
+
+# Paper fetching
+arxiv
+semanticscholar
+openreview-py
+
+# Word embeddings (only needed for the older UltraExpan experiments; safe to skip for LimitTree alone)
+gensim
+
+# For local development / tests of the model/framework
+torch    # CPU is fine; CUDA version optional
+scipy
+scikit-learn
+requests
