@@ -1,4 +1,4 @@
-# Tree-of-Concerns: Code
+# Tree-of-Concerns
 
 This is the source code for "Tree-of-Concerns: Hierarchical Multi-Agent
 Debate for Extracting Unstated Limitations for Scientific Critique" and
